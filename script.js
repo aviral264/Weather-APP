@@ -2,7 +2,7 @@
 function searchWeather() {
     const cityInput = document.getElementById("cityInput").value;
 
-    // Replace 'YOUR_API_KEY' with your actual API key from OpenWeatherMap
+  
     const apiKey = 'key03';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${apiKey}&units=metric`;
 
